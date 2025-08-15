@@ -38,7 +38,7 @@ A comprehensive stock analysis and forecasting web application built with Stream
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/Stock_Project.git
+   git clone https://github.com/PRANAV0494/Stock_Project.git
    cd Stock_Project
    ```
 
@@ -222,9 +222,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Pranav Maheshwari**
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **LinkedIn**: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- **Email**: your.email@example.com
+- **GitHub**: [@PRANAV0494](https://github.com/PRANAV0494)
+- **LinkedIn**: [Pranav Maheshwari](https://www.linkedin.com/in/pranav-maheshwari-b76894187/)
+- **Email**: pranavm494@gmail.com
 
 ## 🙏 Acknowledgments
 
