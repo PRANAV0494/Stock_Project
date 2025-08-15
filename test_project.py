@@ -10,47 +10,47 @@ def test_imports():
         
         # Test core modules
         import streamlit as st
-        print("✅ Streamlit imported successfully")
+        print("Streamlit imported successfully")
         
         import pandas as pd
-        print("✅ Pandas imported successfully")
+        print("Pandas imported successfully")
         
         import numpy as np
-        print("✅ NumPy imported successfully")
+        print("NumPy imported successfully")
         
         import matplotlib.pyplot as plt
-        print("✅ Matplotlib imported successfully")
+        print("Matplotlib imported successfully")
         
         import yfinance as yf
-        print("✅ YFinance imported successfully")
+        print("YFinance imported successfully")
         
         # Test custom modules
         from config import stock_symbols
-        print("✅ Config module imported successfully")
+        print("Config module imported successfully")
         
         from utils.data_fetcher import get_stock_data
-        print("✅ Data fetcher module imported successfully")
+        print("Data fetcher module imported successfully")
         
         from utils.metrics_calculator import calculate_stock_metrics
-        print("✅ Metrics calculator module imported successfully")
+        print("Metrics calculator module imported successfully")
         
         from utils.arima_forecaster import ARIMAForecaster
-        print("✅ ARIMA forecaster module imported successfully")
+        print("ARIMA forecaster module imported successfully")
         
         from utils.lstm_forecaster import LSTMForecaster
-        print("✅ LSTM forecaster module imported successfully")
+        print("LSTM forecaster module imported successfully")
         
         from utils.ui_components import create_header
-        print("✅ UI components module imported successfully")
+        print("UI components module imported successfully")
         
-        print("\n🎉 All imports successful! Project structure is correct.")
+        print("\n All imports successful! Project structure is correct.")
         return True
         
     except ImportError as e:
-        print(f"❌ Import error: {e}")
+        print(f"Import error: {e}")
         return False
     except Exception as e:
-        print(f"❌ Unexpected error: {e}")
+        print(f"Unexpected error: {e}")
         return False
 
 def test_config():
@@ -61,18 +61,18 @@ def test_config():
         from config import stock_symbols, APP_CONFIG, MODEL_CONFIG
         
         # Test stock symbols
-        print(f"✅ Stock symbols loaded: {len(stock_symbols)} stocks")
+        print(f"Stock symbols loaded: {len(stock_symbols)} stocks")
         
         # Test app config
-        print(f"✅ App config loaded: {APP_CONFIG['title']}")
+        print(f"App config loaded: {APP_CONFIG['title']}")
         
         # Test model config
-        print(f"✅ Model config loaded: ARIMA order {MODEL_CONFIG['arima']['order']}")
+        print(f"Model config loaded: ARIMA order {MODEL_CONFIG['arima']['order']}")
         
         return True
         
     except Exception as e:
-        print(f"❌ Configuration error: {e}")
+        print(f"Configuration error: {e}")
         return False
 
 def test_utility_functions():
@@ -100,7 +100,7 @@ def test_utility_functions():
         return True
         
     except Exception as e:
-        print(f"❌ Utility functions error: {e}")
+        print(f"Utility functions error: {e}")
         return False
 
 def main():
@@ -123,15 +123,15 @@ def main():
             passed += 1
     
     print("\n" + "=" * 50)
-    print(f"📊 Test Results: {passed}/{total} tests passed")
+    print(f"Test Results: {passed}/{total} tests passed")
     
     if passed == total:
-        print("🎉 All tests passed! Project is ready to run.")
+        print(" All tests passed! Project is ready to run.")
         print("\nTo run the application:")
         print("1. Install dependencies: pip install -r requirements.txt")
         print("2. Run the app: streamlit run app.py")
     else:
-        print("❌ Some tests failed. Please check the errors above.")
+        print(" Some tests failed. Please check the errors above.")
     
     return passed == total
 
