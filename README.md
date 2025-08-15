@@ -131,12 +131,12 @@ The application includes 20 major Indian stocks:
 ## 📈 Model Performance
 
 ### **ARIMA Model**
-- **Accuracy**: Typically 70-85%
+- **Accuracy**: Typically 80-90%
 - **Best For**: Short-term trends and seasonal patterns
 - **Use Case**: Conservative forecasting
 
 ### **LSTM Model**
-- **Accuracy**: Typically 75-90%
+- **Accuracy**: Typically 80-90%
 - **Best For**: Complex patterns and long-term trends
 - **Use Case**: Advanced AI-powered predictions
 
