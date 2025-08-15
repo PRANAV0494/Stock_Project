@@ -85,7 +85,7 @@ def test_utility_functions():
         
         # Test stock validation
         is_valid = validate_stock_symbol("TCS.NS")
-        print(f"✅ Stock validation working: TCS.NS is {'valid' if is_valid else 'invalid'}")
+        print(f"Stock validation working: TCS.NS is {'valid' if is_valid else 'invalid'}")
         
         # Test metrics calculation with dummy data
         import pandas as pd
@@ -95,7 +95,7 @@ def test_utility_functions():
         })
         
         metrics = calculate_stock_metrics(dummy_data)
-        print(f"✅ Metrics calculation working: {len(metrics)} metrics calculated")
+        print(f"Metrics calculation working: {len(metrics)} metrics calculated")
         
         return True
         
@@ -105,7 +105,7 @@ def test_utility_functions():
 
 def main():
     """Main test function"""
-    print("🚀 Stock Project - Structure Test")
+    print("Stock Project - Structure Test")
     print("=" * 50)
     
     # Run all tests
